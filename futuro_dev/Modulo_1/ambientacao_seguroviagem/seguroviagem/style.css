@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: rgb(185, 185, 185);    
+    background-image: url(./imagens/spaceship.jpg);
+    background-size: 100%; /* Cobrir toda a área do corpo */
+    background-position: center; /* Centralizar a imagem */    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #01142ee3;
+    height: 50px;  
+    font-size: 18px;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.562);
+}
+
+a {
+    margin: 1%;
+    text-align: center;    
+}
+
+.inicio-container {
+    height: 100px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500px;      
+}
+
+h1 {
+    color: #01142e;
+    background-color: #ffc400c9;
+    margin-right: 36%;
+}
+
+ul {
+    margin-top: 15px;
+    background-color: #01142e67;
+}
+
+h2 {
+    text-align: center;    
+}
+
+h3 {
+    margin-right: 20%;
+}
+
+.sobre-container {
+    display: flex;
+    background-color: #01142eb4;    
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+}
+
+#titulo-sobre{
+    margin-top: 55px;
+    margin-left: 50px;    
+}
+
+img {
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 5%;
+    margin-bottom: 3%;  
+    border-radius: 150px;  
+}
+
+p {
+    line-height: 150%;
+    margin-top: 120px;
+    margin-right: 15%;
+    margin-left: -60px;
+    font-size: 90%;
+}
+
+.planos-container {
+    background-color: #01142eb7;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center; 
+    margin-left: 90px;   
+    margin-right: 90px;  
+    border: 1px solid #ffffffb7;
+    padding: 8px;
+    text-align: left;  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffffb7;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #01142e62;
+    text-align: center;
+}
+
+.perguntas-container {
+    align-items: top;
+    background-color: #01142e09;    
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%; 
+}
+
+#perguntas-titulo {
+    margin-bottom: 50px;
+    color: white;
+}
+
+input, textarea {
+    font-size: medium;
+    box-sizing: border-box;
+    padding: 10px;  
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+footer {
+    display:contents;
+    text-align: end;
+    font-size: 13px;
+    margin-top: 10%;
+    font-family:'Courier New', Courier, monospace;
+}

@@ -1,0 +1,29 @@
+Página web de uma agência de seguro de viagens crie um arquivo HTML básico 
+Crie um menu de navegação com 3 opções de navegação: início, sobre nós e planos. 
+Todas essas opções ficarão na mesma página.
+
+No setor do início, além de ter o menu de navegação abaixo deverá existir um título de apresentação do que 
+se trata o website (use a tag h1 para isso), abaixo desse texto escreva uma breve descrição que demonstra 
+que nossos serviços são seguros (use qualquer tag de título que seja menor que a tag h1).
+
+Dentro de uma seção, adicione uma imagem que remeta a viagem, poderá ser usado os atributos de width e 
+height para regular o tamanho da imagem. Abaixo dela, crie um parágrafo com um texto falando sobre a agência 
+de seguro de viagens.
+
+OBS: lembre de usar as tags corretamente para o parágrafo e para a imagem.
+
+Planos crie dentro de outra seção um título usando a tag h2 com o texto “Planos”, abaixo 
+desse título crie uma tabela usando a estrutura mais adequada, o cabeçalho dessa tabela terá as seguintes 
+colunas: plano, descrição e preço. Para as linhas do corpo dessa tabela crie 3 planos fictícios onde cada 
+plano ocupará uma linha nessa tabela
+
+Crie uma seção extra que receberá o título “Perguntas?” e abaixo dele crie uma estrutura 
+de formulário com os campos “email” e “pergunta”.
+
+O campo email será um input com o tipo próprio para emails e deverá ter ligação entre a label e o campo 
+(dica: usando o atributo for e id) e um placeholder.
+
+Já o campo pergunta deverá ser um textarea com placeholder.
+
+Ao final da página adicione um rodapé com o seu nome e o ano que executou o projeto. 
+Ao usuário clicar no seu nome deverá ser redirecionado ao seu github pessoal.
