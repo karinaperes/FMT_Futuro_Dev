@@ -43,9 +43,14 @@ function catalogarCompra() {
             quantidades[produtoEscolhido] += quantidade;
 
             // verifica se é o item mais pedido até agora
-            if (quantidades[produtoEscolhido] > quantidades [itemMaisPedido]) {
-                itemMaisPedido = produtoEscolhido;
+            let valorMaximo = 0
+            for (let pedido in quantidades) {
+                if (quantidades[pedido] >= valorMaximo) {
+                    itemMaisPedido = pedido
+                    valorMaximo = quantidades[pedido]
+                }
             }
+            
         } else {
             alert("Opção inválida");
         }
