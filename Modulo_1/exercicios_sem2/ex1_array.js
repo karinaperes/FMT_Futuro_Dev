@@ -20,7 +20,7 @@ console.log(`A segunda fruta inserida na lista é: ${frutas[1]}`);
 
 frutas.push( prompt(`Digite mais uma fruta:`));
  
-frutas.shift([0]); // exclui o elemento indicado da lista
+frutas.shift(); // exclui o primeiro elemento da lista
 
 console.log("A lista atualizada é: ", frutas);
 
