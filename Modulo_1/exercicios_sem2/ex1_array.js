@@ -18,4 +18,10 @@ for (i = 0; i < 3; i++) {
 
 console.log(`A segunda fruta inserida na lista é: ${frutas[1]}`);
 
+frutas.push( prompt(`Digite mais uma fruta:`));
+ 
+frutas.shift([0]); // exclui o elemento indicado da lista
+
+console.log("A lista atualizada é: ", frutas);
+
 
