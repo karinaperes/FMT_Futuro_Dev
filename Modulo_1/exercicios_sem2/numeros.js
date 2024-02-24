@@ -42,4 +42,8 @@ console.log("Os números pares da lista números são: " + numPares);
 // Quadrado de cada número da lista
 const quadrados = numeros.map(n => n ** 2);
 
+<<<<<<< HEAD
 console.log("O quadrado de cada número da lista números é: " + quadrados)
+=======
+console.log("O quadrado de cada número da lista números é: " + quadrados)
+>>>>>>> 4c1489aca081d9dbf1b93e44c9aa018e4b274b4e
