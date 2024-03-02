@@ -1,15 +1,14 @@
 function getUserInfo() {
-    return new Promise ((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             const userInfo = {
-                id: 1,
                 nome: "Karina Peres",
                 idade: 44,
                 email: "email@email.com",
             };
             resolve(userInfo)
             reject("Algo de errado aconteceu")
-            }, 2000)            
+        }, 2000)
     })
 }
 
@@ -20,14 +19,14 @@ async function displayUserInfo() {
     try {
         const userInfo = await getUserInfo()
 
-    console.log(`ID do Usuário: ${userInfo.id}`)
-    console.log(`Nome: ${userInfo.nome}`)
-    console.log(`Idade: ${userInfo.idade}`)
-    console.log(`Email: ${userInfo.email}`) 
+        console.log(`Nome: ${userInfo.nome}`)
+        console.log(`Idade: ${userInfo.idade}`)
+        console.log(`Email: ${userInfo.email}`)
 
-    } catch (erro) {
+    }
+    catch (erro) {
         console.log(erro)
-    }      
+    }
 }
 
 displayUserInfo()
