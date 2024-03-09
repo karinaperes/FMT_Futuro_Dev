@@ -26,29 +26,25 @@ class Produto {
     }
 }
 
-let produto = new Produto()
-let produto1 = new Produto("TV", 1500, 10)
-let produto2 = new Produto("Sofá", 600, 6)
+const mesa = new Produto("Mesa", 500, 12)
+const tv = new Produto("TV", 1500, 10)
+const sofa = new Produto("Sofá", 600, 6)
 
-produto.nome = "Mesa";
-produto.preco = 500
-produto.quantidade = 12
+console.log(mesa)
+console.log(tv)
+console.log(sofa)
 
-console.log(produto)
-console.log(produto1)
-console.log(produto2)
+mesa.Vender(5)
+tv.Vender(2)
+sofa.Vender(7)
 
-produto.Vender(5)
-produto1.Vender(2)
-produto2.Vender(7)
+mesa.Repor(3)
+tv.Repor(4)
+sofa.Repor(1)
 
-produto.Repor(3)
-produto1.Repor(4)
-produto2.Repor(1)
+mesa.MostrarEstoque()
 
-produto.MostrarEstoque()
-
-produto.AtualizarPreco(430)
+mesa.AtualizarPreco(430)
 
 
 
